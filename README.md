@@ -18,7 +18,7 @@ Toy Implementation of OAuth2 in python with fastapi
    ```
    client_id='johnsmith', client_secret='John smith'
    ```
-5. On authentication success you can now execute the root endpoint.
+5. On authentication success you can now execute the root endpoint request.
 
 ## Next Steps
 This is a toy implementation and should NOT be used in a production environment. If you wish to implement OAuth2 more robustly, persistence should be utilized to securely store client ids and secrets. 
